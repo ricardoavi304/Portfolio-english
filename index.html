@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo - Java Full-Stack Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">Ricardo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Start</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#titulos">Titles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactos">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="mb-4"></div> <!-- Espacio vertical -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-2 mb-lg-4">
+                    <div class="hero-content">
+                        <h1>Hi, I'm Ricardo, a Full Stack Java Developer. </h1>
+                        <p class="hero-bio">
+                            <strong>"¡Hi! I am Ricardo.</strong> I design and implement comprehensive web solutions that transform ideas into functional and engaging interfaces. I prioritize usability, accessibility, and cross-platform compatibility, applying best practices in Java development, modern front-end technologies, and scalable architecture.
+                        </p>
+                        
+                        <div class="contact-info">
+                            <h5 class="mb-3">Contact</h5>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Mexico, Mexico City</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>ricardoaviless.sanchez@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>+52 55 1242 6882</span>
+                            </div>
+                            
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-laptop-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-avatar text-center">
+                    <img src="./Fotografias/richi.png" alt="Foto de Ricardo" class="avatar-img">
+                </div>
+
+
+
+    <!-- Sobre Mí Section -->
+    <section id="sobre-mi" class="about-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">About me</h2>
+                <p class="section-subtitle">Know my history and my passions. </p>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="about-content">
+                        <p class="about-text">
+                            I am a progressive young man and I love food safety, but I am also very curious about the technological area because it always caught my attention. Fortunately, I decided to delve into this field in a more specialized way and I ended up liking it so very much.
+                        </p>
+                        
+                        <p class="about-text">
+                            My journey in technology began with a simple curiosity that blossomed into a passion. Every line of code I write, every project I develop, and every problem I solve brings me closer to my goal of serving others with my knowledge.
+                        </p>
+
+                        <div class="about-highlight">
+                            <h5 style="color: var(--color-contraste); font-weight: 600; margin-bottom: 1rem;">
+                                <i class="fas fa-quote-left me-2"></i>My philosophy
+                            </h5>
+                            <p style="margin: 0; color: var(--color-oscuro); font-style: italic;">
+                                I firmly believe that technology can be a powerful tool for generating positive change in society. My interest in food security and technology are not separate paths; rather, I seek to integrate them to create innovative solutions that impact people's well-being.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4 class="interest-title">Food Safety</h4>
+                        <p class="interest-description">
+                            I am passionate about contributing to a world where everyone has access to safe and nutritious food. I am looking for ways to apply technology in this field.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 class="interest-title">Web Development</h4>
+                        <p class="interest-description">
+                            I'm excited to learn more about programming every day. I'm fascinated by how code can be transformed into interactive and useful experiences.
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4 class="interest-title">Social Innovation</h4>
+                        <p class="interest-description">
+                            As a young progressive, I am constantly looking for ways to use my skills to make a positive impact on my community and beyond.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">My favorite skills</p>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="category-title">
+                    <i class="fas fa-code"></i>
+                    Front-End Development
+                </h3>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-html5" style="color: #E34F26;"></i></div>
+                            <div class="skill-name">HTML</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-css3-alt" style="color: #1572B6;"></i></div>
+                            <div class="skill-name">CSS</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-js" style="color: #F7DF1E;"></i></div>
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-bootstrap" style="color: #7952B3;"></i></div>
+                            <div class="skill-name">Bootstrap</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-jira" style="color: #4FC08D;"></i></div>
+                            <div class="skill-name">Jira</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-git-alt" style="color: #F05032;"></i></div>
+                            <div class="skill-name">GitHub</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="category-title">
+                    <i class="fas fa-server"></i>
+                    Backend & Terminal
+                </h3>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-python" style="color: #3776AB;"></i></div>
+                            <div class="skill-name">Python</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-node-js" style="color: #339933;"></i></div>
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card"> 
+                            <i class="fas fa-database fa-3x" style="color: #f29111;"></i>
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                            <div class="skill-name">Bash</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-linux" style="color: #FCC624;"></i></div>
+                            <div class="skill-name">Linux</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-java" style="color: #FF9900;"></i></div>
+                            <div class="skill-name">Java</div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Títulos Section -->
+    <section id="titulos" style="background-color: var(--color-claro);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Titles</h2>
+                <p class="section-subtitle">Experience & Education</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h3 class="mb-4"><i class="fas fa-briefcase me-2" style="color: var(--color-contraste);"></i> Jobs</h3>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">2024-2025</div>
+                            <h4 class="timeline-title">Grupo Bimbo</h4>
+                            <p class="timeline-subtitle">Safety Food Operator - Mexico City</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023</div>
+                            <h4 class="timeline-title">VIDANTA</h4>
+                            <p class="timeline-subtitle">Safety Food Supervisor - Nuevo Vallarta </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">2022</div>
+                            <h4 class="timeline-title">Senasica</h4>
+                            <p class="timeline-subtitle">Monitoring of toxic molecules - Mexico City</p>
+                        </div>
+                    </div>
+
+
+                        <h3 class="mb-4"><i class="fas fa-graduation-cap me-2" style="color: var(--color-contraste);"></i> Education</h3>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">Nowadays</div>
+                            <h4 class="timeline-title"> Bootcamp: Full Stack Developer</h4>
+                            <p class="timeline-subtitle">Generation - Mexico</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023</div>
+                            <h4 class="timeline-title">Industrial Biochemical Engineer</h4>
+                            <p class="timeline-subtitle">Metropolitan Autonomous University - UAM</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                
+
+    <!-- Servicios Section -->
+
+    <section id="servicios">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">What do I offer?</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4 class="service-title">UI/UX Design</h4>
+                        <p class="service-description">
+                            I transform ideas into captivating digital interfaces, prioritizing usability and accessibility to deliver unique web experiences on any device.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 class="service-title">Web Pages</h4>
+                        <p class="service-description">
+                            I transform ideas into powerful websites that highlight your brand and attract your ideal audience with functional and impactful designs.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4 class="service-title">Integration with AI</h4>
+                        <p class="service-description">
+                            I incorporate artificial intelligence into web projects, creating automated solutions that optimize processes and offer more personalized experiences to users.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section id="proyectos" style="background-color: var(--color-claro);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">Most recent works</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fas fa-phone"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Hackathon</div>
+                            <h3 class="project-title">Creation of Phone Book</h3>
+                            <!-- Texto adicional debajo del título -->
+                            <p class="project-description">
+                            8-hour Hackathon for creating a phone book using JAVA.
+                            </p>
+                            <a href="https://github.com/amahiranyy/hackathon-2-agenda" class="project-link">
+                                See demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #4a90e2 0%, #b7d86f 100%);">
+                            <i class="fas fa-dog" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">E-commerce</div>
+                            <h3 class="project-title">Woof & Barf</h3>
+                            <!-- Texto adicional debajo del título -->
+                            <p class="project-description">
+                            Platform for selling natural raw pet food, focused on animal nutrition and well-being.
+                            </p>
+                            <a href="https://proyecto-integrador-gold-theta.vercel.app/index.html" class="project-link">
+                                See demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- Contacto Section -->
+    <section id="contactos" class="contact-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Get in touch with me!</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contact-info" style="height: 100%;">
+                        <h4 class="mb-4"><i class="fas fa-comments me-2" style="color: var(--color-contraste);"></i> Lets talk</h4>
+                        
+                        <div class="mb-4">
+                            <h6 style="color: var(--color-oscuro); font-weight: 600;">Email</h6>
+                            <p style="color: #777;">ricardoaviless.sanchez@gmail.com</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h6 style="color: var(--color-oscuro); font-weight: 600;">WhatsApp</h6>
+                            <p style="color: #777;">+52 55 1242 6882</p>
+                            <a href="https://wa.me/525512426882" class="btn btn-sm" style="background-color: var(--color-base); color: var(--color-oscuro); font-weight: 600;">
+                                Escríbeme <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+
+                        <div>
+                            <h6 style="color: var(--color-oscuro); font-weight: 600;">Location</h6>
+                            <p style="color: #777;">Mexico City, Mexico</p>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-lg-7">
+                <div class="contact-form">
+                    <h4 class="mb-4">
+                        <i class="fas fa-envelope me-2" style="color: var(--color-contraste);"></i> 
+                        Write to me about your project
+                    </h4>
+    
+    <!-- Formspree integration -->
+            <form action="https://formspree.io/f/meonebbo" method="POST">
+
+        <div class="mb-3">
+            <label for="nombre" class="form-label" style="color: var(--color-oscuro); font-weight: 600;">
+            Full Name
+            </label>
+            <input type="text" class="form-control" id="nombre" name="nombre" 
+            placeholder="Please write your full name" required>
+        </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label" style="color: var(--color-oscuro); font-weight: 600;">
+                Email
+                </label>
+                <input type="email" class="form-control" id="email" name="email" 
+                placeholder="Your email here" required>
+            </div>
+
+                <div class="mb-4">
+                    <label for="proyecto" class="form-label" style="color: var(--color-oscuro); font-weight: 600;">
+                    Project
+                    </label>
+                    <textarea class="form-control" id="proyecto" name="message" rows="5" 
+                    placeholder="Describe your project" required></textarea>
+                </div>
+
+                <div class="text-center">
+                            <button type="submit" class="btn btn-primary">
+                        Send <i class="fas fa-paper-plane ms-2"></i>
+                    </button>
+                </div>
+            </form>
+    </div>
+</div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="footer-title">Ricardo</h3>
+                    <p style="color: rgba(255, 255, 255, 0.7);">Full-Stack Developer</p>
+                    <p style="color: rgba(255, 255, 255, 0.6);">
+                        Creating exceptional web experiences with clean code and intuitive design.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-6 mb-4 mb-lg-0">
+                    <h5 class="footer-title">Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Start</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#proyectos">Projects</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+                    <h5 class="footer-title">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#servicios"> UI/UX Design</a></li>
+                        <li><a href="#servicios"> Web Development</a></li>
+                        <li><a href="#servicios">HACCP Consulting</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h5 class="footer-title">Follow me</h5>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ricardo-avilés-sánchez-529b66186" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>    
+                        <a href="https://github.com/ricardoavi304" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>    
+                    </div>
+                </div>
+
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0 1rem;">
+            
+            <div class="text-center" style="color: rgba(255, 255, 255, 0.6);">
+                <p class="mb-0">© Copyright Ricardo. All rights reserved 2025</p>
+            </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>
